@@ -1,0 +1,21 @@
+{
+  "rpc_url": "https://YOUR_EVM_RPC",
+  "pairs": [
+    {
+      "symbol": "WETH/USDC",
+      "pair": "0x0000000000000000000000000000000000000000",
+      "token0": {"symbol":"WETH","decimals":18},
+      "token1": {"symbol":"USDC","decimals":6},
+      "venue": "DEX_A",
+      "fees_bps_roundtrip": 20
+    },
+    {
+      "symbol": "WETH/USDC",
+      "pair": "0x0000000000000000000000000000000000000000",
+      "token0": {"symbol":"WETH","decimals":18},
+      "token1": {"symbol":"USDC","decimals":6},
+      "venue": "DEX_B",
+      "fees_bps_roundtrip": 30
+    }
+  ]
+}
